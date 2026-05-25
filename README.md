@@ -15,52 +15,27 @@ Below are the detailed visual representations describing every key feature of th
 
 ### 1. Customer Seating Selector
 Customers view a real image of the restaurant floor layout and click directly on glowing, color-coded tables mapping to their preferred zone.
-![Customer Seating Selector](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/floor_plan_mockup_1779678240714.png)
+![Customer Seating Selector](docs/images/floor_plan_mockup.png)
 
 ### 2. Admin Operations Command Center
 Admins track live seating metrics, view current and predicted utilization, review pending transactions, and check queueing alerts.
-![Admin Operations Control](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/dashboard_mockup_1779678258683.png)
+![Admin Operations Control](docs/images/dashboard_mockup.png)
 
 ### 3. Interactive Table Positioning Tool
 Admins can select any table and position it on the floor layout overlay with a single click, or resize width and height with real-time sliders.
-![Table Positioning Tool](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/table_placement_1779678486081.png)
+![Table Positioning Tool](docs/images/table_placement.png)
 
 ### 4. Attrition-Proof UPI QR Code Payment Form
 Ensures reservations are genuine by capturing a small deposit using QR code payments, requiring the transaction ID and receipt screenshot.
-![UPI Payment Screen](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/payment_screen_1779678508400.png)
+![UPI Payment Screen](docs/images/payment_screen.png)
 
 ### 5. Verified Customer Welcome Pass
 Upon payment validation, a formal greeting pass is generated for the customer to print or save. This pass is scanned at check-in to process their deposit refund.
-![Welcome Card Pass](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/welcome_pass_1779678525438.png)
+![Welcome Card Pass](docs/images/welcome_pass.png)
 
 ### 6. Occupancy Forecasting & Queue Analytics
 A rolling 28-day moving average projects occupancy, while queueing metrics alert managers to operational bottlenecks during peak times.
-![Analytics Charts Dashboard](file:///C:/Users/ASUS/.gemini/antigravity/brain/627c2647-fac9-4137-a391-8dd2a2c6b6b2/analytics_charts_1779678548745.png)
-
-> [!TIP]
-> *To bundle these mockups directly in your local directory for repository commits, copy the generated images from your local cache using these commands:*
->
-> **For Windows PowerShell:**
-> ```powershell
-> New-Item -ItemType Directory -Force -Path "docs/images"
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\floor_plan_mockup_1779678240714.png" "docs/images/floor_plan_mockup.png" -Force
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\dashboard_mockup_1779678258683.png" "docs/images/dashboard_mockup.png" -Force
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\table_placement_1779678486081.png" "docs/images/table_placement.png" -Force
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\payment_screen_1779678508400.png" "docs/images/payment_screen.png" -Force
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\welcome_pass_1779678525438.png" "docs/images/welcome_pass.png" -Force
-> Copy-Item "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\analytics_charts_1779678548745.png" "docs/images/analytics_charts.png" -Force
-> ```
->
-> **For Windows CMD:**
-> ```cmd
-> mkdir docs\images
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\floor_plan_mockup_1779678240714.png" "docs\images\floor_plan_mockup.png"
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\dashboard_mockup_1779678258683.png" "docs\images\dashboard_mockup.png"
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\table_placement_1779678486081.png" "docs\images\table_placement.png"
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\payment_screen_1779678508400.png" "docs\images\payment_screen.png"
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\welcome_pass_1779678525438.png" "docs\images\welcome_pass.png"
-> copy "C:\Users\ASUS\.gemini\antigravity\brain\627c2647-fac9-4137-a391-8dd2a2c6b6b2\analytics_charts_1779678548745.png" "docs\images\analytics_charts.png"
-> ```
+![Analytics Charts Dashboard](docs/images/analytics_charts.png)
 
 ---
 
