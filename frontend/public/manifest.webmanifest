@@ -1,0 +1,11 @@
+{
+  "name": "Hotel Seating Intelligence",
+  "short_name": "Hotel Seats",
+  "description": "Smart hotel seating, booking deposit, payment verification and admin analytics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f1d25",
+  "theme_color": "#5f4a8b",
+  "icons": []
+}
